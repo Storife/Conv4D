@@ -18,8 +18,8 @@ class Conv4D(nn.Module):
         self.s = s
         self.pad = pad
         self.dilation = dilation
-        self.g = g
-        self.pmode = pmode
+        #self.g = g
+        #self.pmode = pmode
 
     def forward(self, x):
         b, c, h, w, l = x.size()
